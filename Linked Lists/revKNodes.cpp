@@ -26,9 +26,7 @@ node* kRev(node*& head, int k){
   
   for(int i =0; i<=2; i++){
     for(int j=0; j<2; j++){
-      // cout << "on " << c->data << endl;
   cout << "cyrrently on  " << c << " " << c->data << endl;
-      // cout << "n is " << p << endl;
       if(c->next != NULL){
             c->next=p;
       p=c;
@@ -39,7 +37,6 @@ node* kRev(node*& head, int k){
       else{
         c->next=p;
         p=c;
-        // cout << "cyrrentlyyy on  " << c << " " << c->data << endl;
       }
     }
     
@@ -48,9 +45,6 @@ node* kRev(node*& head, int k){
     p=NULL;
     cout << "Hi" << endl;
   }
-  
-  // cout << vec[1]->next->data;
-  
   
   
   node* curr;
